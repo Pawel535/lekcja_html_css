@@ -29,6 +29,8 @@ def random_fact():
     return (
         f'<p>{fact}</p>'
         '<a href="/">Wróć do strony głównej</a>'
+        '<br>'
+        '<a href="/random_fact">Kolejny fakt</a>'
     )
 
 @app.route("/coin_flip")
